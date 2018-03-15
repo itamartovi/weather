@@ -1,0 +1,78 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    /*border:1px dashed red;*/
+    
+   
+}
+
+body
+{
+    background-image:url(img/Abstract_Background_1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#weather-page {
+    box-sizing: border-box;
+    color:#065bfd;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    background-color: rgba(255, 255, 255, 0.68);
+}
+.top {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.right {
+    width: 49%;
+    text-align: center;
+    height: 300px;
+    font-weight: bold;
+    
+}
+
+.left {
+    width: 49%;
+    text-align: center;
+    height: 300px;
+    font-weight: bold;
+    
+}
+
+.down {
+    align-items: center;
+    padding: 15px;
+
+}
+
+table , th , td{
+    border:2px solid #065bfd;
+    border-collapse: collapse;
+    height: 170px;
+    padding: 15px;
+}
+h3  {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+} 
+
+#border {
+    border-radius: 5px 5px 5px 5px ;
+    border-left: 2px solid rgba(6, 91, 253, 0.71);
+    border-right: 2px solid rgba(6, 91, 253, 0.71);
+    margin-left: 16px;
+    height: 240px;
+}
+
+#basad {
+    float:right;
+    color: black;
+    text-align: right;
+    font-size: 10px;
+}
